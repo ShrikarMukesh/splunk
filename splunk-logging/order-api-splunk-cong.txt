@@ -1,0 +1,25 @@
+Input Type --- Token
+Name -------- order-service-logs
+Source name override ----- http-event-logs
+Description ------ N/A
+Enable indexer acknowledgements ------ No
+Output Group ------- N/A
+Allowed indexes ----- order_api_dev
+
+Default index ------- order_api_dev
+Source Type ---- log4j
+App Context ---- search
+-------------------------------------------------------------
+8088
+f39c1a53-d7e6-4a2c-a199-6a58b3090068
+Source: log4j
+index:  order_api_dev
+Source name: http-event-logs
+
+------------------------------------------------------------
+Issues:
+Why can I not download splunk-logging-library from repository?
+https://community.splunk.com/t5/All-Apps-and-Add-ons/Why-can-I-not-download-splunk-logging-library-from-repository/m-p/547366
+
+Lombok issue:
+https://stackoverflow.com/questions/77171270/compilation-error-after-upgrading-to-jdk-21-nosuchfielderror-jcimport-does-n

@@ -1,0 +1,32 @@
+Splunk:
+Download Install:
+YouTube: https://www.youtube.com/watch?v=wPqTx3c3dco&ab_channel=SiliconCowboi
+
+https://www.splunk.com/en_us/download/splunk-enterprise.html?locale=en_us
+mukesh.shrikar10@gmail.com
+We***@1**
+---------------------------------------------
+admin username and password:
+shrikar
+Mukesh@123
+
+------------------------------------------------------------
+Please enter an administrator username: shrikar
+Password must contain at least:
+   * 8 total printable ASCII character(s).
+Please enter a new password: M****@***
+Please confirm new password: 
+Copying '/opt/splunk/etc/openldap/ldap.conf.default' to '/opt/splunk/etc/openldap/ldap.conf'.
+Generating RSA private key, 2048 bit long modulus
+.............................................+++++
+............+++++
+e is 65537 (0x10001)
+writing RSA key
+
+Generating RSA private key, 2048 bit long modulus
+.............................................+++++
+..........................................................................................+++++
+e is 65537 (0x10001)
+writing RSA key
+
+sudo systemctl status splunk
