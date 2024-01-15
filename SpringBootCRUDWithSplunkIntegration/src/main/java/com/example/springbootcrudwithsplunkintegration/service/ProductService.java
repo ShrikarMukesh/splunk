@@ -1,6 +1,5 @@
 package com.example.springbootcrudwithsplunkintegration.service;
 
-
 import com.example.springbootcrudwithsplunkintegration.entity.Product;
 import com.example.springbootcrudwithsplunkintegration.repo.ProductRepository;
 import org.apache.logging.log4j.LogManager;
@@ -39,10 +38,6 @@ public class ProductService {
     public void deleteById(Long id) {
         productRepository.deleteById(id);
     }
-
-
-
-
 
 }
 

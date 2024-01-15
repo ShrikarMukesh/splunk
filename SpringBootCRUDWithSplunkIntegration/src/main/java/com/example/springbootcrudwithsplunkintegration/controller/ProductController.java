@@ -1,6 +1,5 @@
 package com.example.springbootcrudwithsplunkintegration.controller;
 
-
 import com.example.springbootcrudwithsplunkintegration.entity.Product;
 import com.example.springbootcrudwithsplunkintegration.service.ProductService;
 import org.apache.logging.log4j.LogManager;
